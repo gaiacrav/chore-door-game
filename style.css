@@ -1,10 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Orelega+One&display=swap');
+
 body {
-  background-color: #010165;
+  background-color: #295e62;
   margin: 0px;
 }
 
+footer{
+  color: white;
+  margin: auto;
+  width: 450px;
+  text-align: center;
+}
+
+#social{
+  padding:10px;
+}
+
+.fa-linkedin{
+  font-size: 20px;
+  color: white;
+}
+
+.fa-github-square{
+  font-size: 20px;
+  color: white;
+}
+
 .header{
-  background-color: #00ffff;
+  background-color: #d5d46f;
   text-align: center;
 }
 
@@ -16,27 +39,27 @@ body {
 
 .instructions-title{
   display: inline;
-  font-size: 18px;
-  color: #00ffff;
-  font-family: ‘Work Sans’;
+  font-size: 24px;
+  color: #dff09d;
+  font-family: 'Orelega One', cursive;
 }
 
 .instructions-row{
   margin: 0 auto;
-  width: 400px;
+  width: 500px;
 }
 
 .instructions-number{
   padding-right: 25px;
-  font-family: ‘Work Sans’;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 36px;
-  color: #00ffff;
+  color: #dff09d;
 }
 
 .instructions-text{
   padding: 10px;
-  font-family: ‘Work Sans’;
-  font-size: 18px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 22px;
   color: #ffffff;
 }
 
@@ -48,12 +71,13 @@ body {
   margin: auto;
   width: 120px;
   height: 43px;
-  font-family: ‘Work Sans’;
-  background-color: #eb6536;
+  font-family: 'Orelega One', cursive;
+  background-color: #dff09d;
   padding-top: 18px;
-  font-size: 18px;
+  font-size: 22px;
+  font-weight: 400;
   text-align: center;
-  color: #010165;
+  color: #1c4648;
   margin-bottom: 21px;
   cursor: pointer;
 }
